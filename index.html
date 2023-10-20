@@ -3,21 +3,30 @@
     <head>
         <title> Mateus Souza - Portfólio Online </title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/style.css"/>
-    </head>
-    <body>
-        <div>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div>
+		<div class="navigation">
+            <header>
             <ul>
-                <li>Nome</li>
-                <li>Portfólio</li>
-                <li>Curriculo</li>
-                <li>Contato</li>
+                <li><a href="index.html"></a>Home</li>
+				<li><a href="Portfolio.html">Portfólio</a></li>
+				<li><a href="Curriculo.html"></a>Curriculo</li>
+				<li><a href="Contato.html"></a>Contato</li>
             </ul>
+            </header>
         </div>
-        <div>
-            <img arc="" alt="Mateus Souza"/>
-            <h1>Mateus Souza</h1>
-            <h2>Desenvolvedor</h2>
+        <style>
+            .imagem-redonda{
+                border-radius: 50%;
+            }
+        </style>
+        <div class="capa">
+            <img class="imagem-redonda" width="300" height="300" src="img/foto1.png" alt="Mateus Souza"/>
+            <div class="nome">
+            <h1 class="h1p">Mateus <span class="h2p">Souza</span></h1>
+            <h2 class="h2p">Desenvolvedor</h2></div>
         </div>
     </body>
 </html>
