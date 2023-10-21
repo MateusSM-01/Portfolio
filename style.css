@@ -12,59 +12,93 @@ body {
     color: white;
     list-style: none;
     margin-top: 0;
+    
+    
+    
 }
 
 .capa {
     color: white;
     display: flex;
-    margin-top: 30px;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    
+}
+
+.imagem-redonda{
+    border-radius: 50%;
+    margin-top: 60px;
+    margin-left: 50px;
+
+
 }
 
 .capa span {
     color: #f27609;
     display: block;
+    
 }
 
 header{
-    background-color: #f37805;
-    padding: 10px;
+    background-color: #2b2b29;
+    padding: 0%;
     text-align: center;
-    font-size: 20;
-    color: #050404;
+    
+    font-size: 110%;
+    color:white;
     display: flex;
 }
 
 a{
-    color: #050404;
+    color:white;
+}
+
+.clique-aqui{
+    color: #f27609;
+}
+
+.quando-clicado{
+    color: #f27609;
 }
 
 .navigation ul{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
     list-style: none;
     margin-top: 0;
     padding: 0;
     height: 56px;
-    text-align: right;
+    margin-left: 900px;
+    color: white;
+    cursor: pointer;
 
 }
 
 .navigation li{
     display: inline-block;
     padding-right: 30px;
+    line-height: 56px;
 }
 
 .h1p{
     color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 47px;
 }
 
 .h2p{
-    color: white;
+    color: #fa7203;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 47px;
 }
 
+.h3p{
+    color: #708090;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 21px;
+}
 .nome{
     display: block;
     width: 100%;
-    margin-left: 30px;
+    margin-left: 480px;
+    margin-top: -290px;
+
 }
