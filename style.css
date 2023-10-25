@@ -23,6 +23,12 @@ body {
     
 }
 
+.imagem-quadrada
+{
+    margin-top: 3px;
+    margin-left: 60px;
+}
+
 .imagem-redonda{
     border-radius: 50%;
     margin-top: 60px;
@@ -95,10 +101,66 @@ a{
     font-family: 'Montserrat',sans-serif;
     font-size: 21px;
 }
+
+.h4p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 60px;
+}
+
+.h5p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 65px;
+}
+
+.h6p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left: 120px;
+    margin-top: 0px;
+}
+
 .nome{
     display: block;
     width: 100%;
     margin-left: 480px;
     margin-top: -290px;
 
+}
+
+.h7p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ec7607;
+    margin-left: 490px;
+    margin-top: -345px;
+}
+
+.h8p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 490px;
+    margin-top: 0px;
+}
+
+.h9p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ec7607;
+    margin-left: 490px;
+    margin-top: 0px;
+}
+.h10p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-left: 490px;
+    margin-top: 0px;
 }
