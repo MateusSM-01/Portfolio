@@ -8,6 +8,8 @@ body {
 }
 
 .navigation {
+    margin-left: -60px;
+    text-decoration: none;
     background-color: #ec7607;
     color: white;
     list-style: none;
@@ -66,6 +68,8 @@ a{
 }
 
 .navigation ul{
+    transition: color 0.3s;
+    text-decoration: none;
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
     list-style: none;
@@ -79,6 +83,8 @@ a{
 }
 
 .navigation li{
+    transition: color 0.3s;
+    text-decoration: none;
     display: inline-block;
     padding-right: 30px;
     line-height: 56px;
@@ -107,7 +113,7 @@ a{
     font-size: 28px;
     color: white;
     margin-left: 120px;
-    margin-top: 60px;
+    margin-top: -60px;
 }
 
 .h5p{
@@ -137,7 +143,7 @@ a{
 .h7p{
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
-    color: #ec7607;
+    color: #fa7203;
     margin-left: 490px;
     margin-top: -345px;
 }
@@ -153,7 +159,7 @@ a{
 .h9p{
      font-family: 'Montserrat',sans-serif;
     font-size: 20px;
-    color: #ec7607;
+    color: #fa7203;
     margin-left: 490px;
     margin-top: 20px;
 }
@@ -167,7 +173,7 @@ a{
 .h11p{
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
-    color: #ec7607;
+    color: #fa7203;
     margin-left: 490px;
     margin-top: 18px;
 }
@@ -181,9 +187,9 @@ a{
 .h13p{
     font-family: 'Montserrat',sans-serif;
     font-size: 18px;
-    color: #ec7607;
+    color: #fa7203;
     margin-left: 120px;
-    margin-top: 160px;
+    margin-top: 80px;
 }
 
 .h14p{
@@ -213,8 +219,58 @@ a{
 .h17p{
     font-family: 'Montserrat',sans-serif;
     font-size: 20px;
-    text-align: justify;
     color: white;
     margin-left: 120px;
     margin-top: 18px
+}
+
+.container {
+    text-align: justify;
+    margin:  10 auto; /* Define margens iguais nas laterais (centralizado) */
+    width: 85%; /* Define a largura da área de conteúdo */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.b{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 15px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+b:hover{
+    background-color: dodgerblue;
+}
+
+.main {
+    padding: 40px 180px 80px 100px;
+
+    /*padding-top: 40px;
+    padding-right: 180px;
+    padding-bottom: 80px;
+    padding-left: 100px;*/
+}
+
+.caminho {
+    list-style: none;
+    color: grey;
+    padding-left: 0;
+}
+
+.caminho li {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.caminho a {
+    color: gray;
 }
