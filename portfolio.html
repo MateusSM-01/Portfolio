@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="navigation">
+    <div id="navigation" class="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="portfolio.html">Portfólio</a></li>
@@ -21,7 +21,7 @@
             <li><a href="contato.html">Contato</a></li>
             <li><a href="https://github.com/MateusSM-01">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/mateus-souza-3678a8234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a></li>
-            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li> <!-- Closed the 'li' tag here -->
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
         </ul>
     </div>
 
@@ -66,7 +66,7 @@
             }
 
             .hh{
-                margin-left: 85px;
+                margin-left: 20px;
                 margin-top: 10px;
             }
             .imagemSegunda{
@@ -76,7 +76,32 @@
 
             .hhh{
                 margin-top: 16px;
-                margin-left: 60px;
+                margin-left: 50px;
+            }
+
+            .imagemPrincipal {
+                text-align: center;
+            }
+
+            .imagemPrincipal img {
+                /* Adicione estilos para a imagemPrincipal, se necessário */
+            }
+
+            .imagemSegunda img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            /* Adicione essas regras para ajustar a posição da imagemSegunda no celular */
+            @media screen and (max-width: 600px) {
+                .imagemPrincipal {
+                    position: static; /* Torna a primeira imagem estática em dispositivos móveis */
+                }
+
+                .imagemSegunda {
+                    margin-left: 0;
+                    margin-top: 20px; /* Ajuste a margem conforme necessário para a segunda imagem */
+                }
             }
 
         </style>
