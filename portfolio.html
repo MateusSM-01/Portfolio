@@ -1,91 +1,114 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Mateus Souza - Portfólio Online </title>
-        <meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div>
-		<div class="navigation" >
-            <header>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-				<li><a href="portfolio.html">Portfólio</a></li>
-				<li><a href="Curriculo.html">Curriculo</a></li>
-				<li><a href="Contato.html">Contato</a></li>
-                <li><a href="https://github.com/MateusSM-01">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/mateus-souza-3678a8234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a></li>
-            </ul>
-            </header>
-        </div>
-        <div class="main">
-					
-            <ul class="caminho">
-                <li><a href="index.html">Home</a></li>
-                <li>></li>
-                <li></li><a href="portfolio.html">Portfólio</a></li>
-            </ul>
-        </div>
-        </div>
-    </body>
+<html lang="en"> <!-- Added language attribute to the html tag -->
+
 <head>
-    <style>
-        #imagemPrincipal {
-            border-radius: 50px;
-            cursor: pointer;
-        }
-
-        #galeria {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .imagemGaleria {
-            border-radius: 50px;
-            display: block;
-            margin-bottom: 10px;
-        }
-        .imagemGaleria{
-            margin-top: 20px;
-        }
-
-        .h100p{
-            font-family: 'Montserrat',sans-serif;
-            font-size: 28px;
-            color: white;
-            margin-left: 120px;
-            margin-top: -60px;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Added viewport meta tag -->
+    <title>Mateus Souza - Portfolio Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
+
 <body>
-    <div>
-        <h2 class="h100p">PORTFÓLIO</h2></div>
+    <div class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="Curriculo.html">Curriculo</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="https://github.com/MateusSM-01">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mateus-souza-3678a8234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a></li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li> <!-- Closed the 'li' tag here -->
+        </ul>
     </div>
-    <div class="imagemPrincipal">
-        <img id="imagemPrincipal" width="300" height="270" src="img/foto18.png" alt="Imagem Principal"  onclick="abrirGaleria()" href="index.html">
-    </div>
-      
-        <script>
-            function abrirGaleria() {
-                document.getElementById('galeria').style.display = 'block';
+
+    <div class="main">
+        <ul class="caminho">
+            <li><a href="index.html">Home</a></li>
+            <li>></li>
+            <li><a href="portfólio.html">Portfolio</a></li> 
+        </ul>
+
+        <style>
+            
+            #imagemPrincipal {
+                border-radius: 50px;
+                cursor: pointer;
             }
 
-            function fecharGaleria() {
-                document.getElementById('galeria').style.display = 'none';
+            #galeria {
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             }
-        </script>
 
-    </body>
+            .imagemGaleria {
+                border-radius: 50px;
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .imagemGaleria {
+                margin-top: 20px;
+            }
+
+            .h100p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 28px;
+                color: white;
+                margin-left: 120px;
+                margin-top: -60px;
+            }
+
+            .hh{
+                margin-left: 85px;
+                margin-top: 10px;
+            }
+            .imagemSegunda{
+                margin-left: 400px;
+                margin-top: -303px;
+            }
+
+            .hhh{
+                margin-top: 16px;
+                margin-left: 60px;
+            }
+
+        </style>
+
+        <h1>PORTFÓLIO</h1>
+
+        <div class="imagemPrincipal">
+    
+    
+            <a href="index.html"> <!-- Add this anchor tag around the image -->
+                    
+                  
+            <img id="imagemPrincipal" width="300" height="270" src="img/foto18.png" alt="Imagem Principal" onclick="irParaIndex()">
+            
+            </a>
+                <h2 class="hh">NOW IS THE TIME</h2>
+        </div>
+
+        <div class="imagemSegunda">
+    
+    
+            <a href="index.html"> <!-- Add this anchor tag around the image -->
+                    
+                  
+            <img id="imagemSegunda" width="280" height="250" src="img/foto131.png" alt="Imagem Principal" onclick="irParaIndex()">
+            
+            </a>
+                <h2 class="hhh">BANCO DE DADOS</h2>
+        </div>
+
+    <br><br><br>
+    <a href="index.html" class="b">Voltar ao início</a> <!-- Closed the 'a' tag here -->
+</body>
+
 </html>
-
-    </div>  
-    </body>
-</html> 

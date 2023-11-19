@@ -1,59 +1,130 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> Mateus Souza - Portfólio Online </title>
-        <meta charset="UTF-8">
-		<link rel="stylesheet" href="style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-	</head>
-	<body>
-		<div>
-		<div class="navigation" >
-            <header>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-				<li><a href="portfolio.html">Portfólio</a></li>
-				<li><a href="Curriculo.html">Curriculo</a></li>
-				<li><a href="Contato.html">Contato</a></li>
-                <li><a href="https://github.com/MateusSM-01">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/mateus-souza-3678a8234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a></li>
-            </ul>
-            </header>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Souza - Portfolio Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        /* Your additional styles go here */
+        .cont {
+            margin-top: -46px;
+            margin-left: 30px;
+        }
+
+        .material-symbols-outlined {
+            margin-left: -10px;
+            margin-top: 20px;
+        }
+
+        .telefone {
+            margin-left: 30px;
+            margin-top: -46px;
+        }
+
+        .face{
+            display: flex;
+            align-items: center;
+        }
+        .insta{
+            margin-top: -60px;
+            margin-left: 400px;
+            display: flex;
+            align-items: center;
+        }
+        .link {
+            margin-top: -60px;
+            margin-left: 820px;
+            display: flex;
+            align-items: center;
+        }
+
+        .face svg{
+            margin-left: -20px;
+            width: 60px;
+            margin-right: 10px;
+        }
+        .insta svg{
+            margin-top: -35px;
+            width: 50px;
+            margin-right: 10px;
+        }
+        .link svg {
+            margin-top: -40px;
+            width: 40px;
+            margin-right: 10px; 
+        }
+
+        .mm{
+
+            margin-top: -20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="Curriculo.html">Curriculo</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            <li><a href="https://github.com/MateusSM-01">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mateus-souza-3678a8234?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Linkedin</a></li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <ul class="caminho">
+            <li><a href="index.html">Home</a></li>
+            <li>></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <h1>CONTATO</h1>
+
+        <span class="material-symbols-outlined">mail</span>
+        <div class="cont">
+            <p>E-MAIL:</p>
+            <p>msm510937@gmail.com</p>
         </div>
-        <div class="main">
-					
-            <ul class="caminho">
-                <li><a href="index.html">Home</a></li>
-                <li>></li>
-                <li></li><a href="contato.html">Contato</a></li>
-            </ul>
+
+        <span class="material-symbols-outlined">call</span>
+        <div class="telefone">
+            <p>(015) 98810-8794</p>
         </div>
-        <div class="capa">
+
+        <div class="face">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 64 64">
+                <path d="M40.227,12C51.146,12,52,12.854,52,23.773v16.453C52,51.145,51.146,52,40.227,52h-2.089V37.438h5.134l0.807-5.77h-5.941	c0,0-0.009-3.378,0-4.221c0.017-1.649,1.394-2.483,2.577-2.471c1.183,0.012,3.634,0.004,3.634,0.004v-5.317	c0,0-2.123-0.275-4.349-0.298c-1.871-0.019-3.937,0.487-5.604,2.167c-1.696,1.709-1.963,4.254-1.996,7.364	c-0.009,0.9,0,2.772,0,2.772h-5.024v5.77H32.4V52h-8.626C12.854,52,12,51.145,12,40.227V23.773C12,12.854,12.854,12,23.773,12	H40.227z"></path>
+            </svg>
+            <p>FACEBOOK : Mateus Souza</p>
         </div>
-        <div>
-            <h2 class="h4p">Contato</h2></div>
+
+        <div class="insta">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+                <path d="M16,4H8C5.791,4,4,5.791,4,8v8c0,2.209,1.791,4,4,4h8c2.209,0,4-1.791,4-4V8C20,5.791,18.209,4,16,4z M12,16c-2.209,0-4-1.791-4-4c0-2.209,1.791-4,4-4s4,1.791,4,4C16,14.209,14.209,16,12,16z" opacity=".3"></path><path d="M16,3H8C5.243,3,3,5.243,3,8v8c0,2.757,2.243,5,5,5h8c2.757,0,5-2.243,5-5V8C21,5.243,18.757,3,16,3z M19,16c0,1.654-1.346,3-3,3H8c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3h8c1.654,0,3,1.346,3,3V16z"></path><path d="M12 7c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5S14.757 7 12 7zM12 15c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3S13.654 15 12 15zM17 6A1 1 0 1 0 17 8 1 1 0 1 0 17 6z"></path>
+            </svg>
+            <p class="mm">INSTAGRAM : mateussoouza_</p>
         </div>
-        <div>
-            <h2 class="h41p">E-MAIL:</h2></div>
+
+        <div class="link">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 26 26">
+                <path d="M 21.125 0 L 4.875 0 C 2.183594 0 0 2.183594 0 4.875 L 0 21.125 C 0 23.816406 2.183594 26 4.875 26 L 21.125 26 C 23.816406 26 26 23.816406 26 21.125 L 26 4.875 C 26 2.183594 23.816406 0 21.125 0 Z M 8.039063 22.070313 L 4 22.070313 L 3.976563 9.976563 L 8.015625 9.976563 Z M 5.917969 8.394531 L 5.894531 8.394531 C 4.574219 8.394531 3.722656 7.484375 3.722656 6.351563 C 3.722656 5.191406 4.601563 4.3125 5.945313 4.3125 C 7.289063 4.3125 8.113281 5.191406 8.140625 6.351563 C 8.140625 7.484375 7.285156 8.394531 5.917969 8.394531 Z M 22.042969 22.070313 L 17.96875 22.070313 L 17.96875 15.5 C 17.96875 13.910156 17.546875 12.828125 16.125 12.828125 C 15.039063 12.828125 14.453125 13.558594 14.171875 14.265625 C 14.066406 14.519531 14.039063 14.867188 14.039063 15.222656 L 14.039063 22.070313 L 9.945313 22.070313 L 9.921875 9.976563 L 14.015625 9.976563 L 14.039063 11.683594 C 14.5625 10.875 15.433594 9.730469 17.519531 9.730469 C 20.105469 9.730469 22.039063 11.417969 22.039063 15.046875 L 22.039063 22.070313 Z"></path>
+                </svg>
+            <p class="mm">LINKEDIN : mateus souza</p>
         </div>
-        <div>
-            <h2 class="h40p">msm510937@gmail.com</h2></div>
-        </div>
-        <div>
-            <h2 class="h41p">TELEFONE:</h2></div>
-        </div>
-        <div>
-            <h2 class="h40p">(015) 98810-8794</h2></div>
-        </div>
-        <div>
-            <h2 class="h44p">FACEBOOK</h2></div>
-            <h2 class="h42p">INSTAGRAM</h2></div>
-            <h2 class="h43p">LINKEDIN</h2></div>
-        </div>
-        <div>
-        </div>
-    </body>
+    </div>
+
+    <br>
+    <a href="index.html" class="b">Voltar ao início</a>
+    </div>
+    </div>
+</body>
+
 </html>
